@@ -60,7 +60,7 @@ class LoginForm extends React.Component {
         <label htmlFor="password">Password</label>
         <input type="password" id="password" name="password" placeholder="Make it secure" value={data.password} onChange={this.onChange}/> {errors.password && <InlineError text={errors.password}/>}
       </Form.Field>
-      <Button primary="primary">Login</Button>
+      <Button>Login</Button>
     </Form>);
   }
 }
